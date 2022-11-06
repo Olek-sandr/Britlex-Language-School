@@ -1,8 +1,20 @@
 :root {
+  --main-color: #263238;
+  --second-color: #8f95a5;
+  --third-color: #000000;
+  --fourth-color: #2a3246;
+  --first-background: #e5e5e5;
+  --second-background: #f5f5f5;
+  --pricing: #546269;
 }
 
 /* -----------------BODY----------------- */
 .body {
+  color: var(--main-color);
+  background-color: var(--first-background);
+
+  font-family: "Poppins", sans-serif;
+  text-align: left;
 }
 
 .section-title {
@@ -18,12 +30,22 @@
   text-decoration: none;
 }
 
+button {
+}
+
 /* -----------------HEADER----------------- */
 .page-header {
 }
 .logo {
+  color: var(--third-color);
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .logo-style {
+  color: var(--second-color);
 }
 .site-nav {
 }
@@ -34,11 +56,46 @@
 .nav-list-item {
 }
 .nav-list-link {
+  color: var(--main-color);
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
+
 .header-button {
+  color: var(--third-color);
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
 }
 
 /* -----------------FOOTER----------------- */
+.footer {
+}
+.logo {
+}
+.link {
+}
+.logo-style {
+}
+.footer-list {
+}
+.list {
+}
+.footer-item {
+}
+.footer-link {
+  color: var(--second-color);
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 /* -----------------MAIN----------------- */
 /* -----------------HERO----------------- */
@@ -47,36 +104,96 @@
 .section {
 }
 .hero-title {
+  color: var(--third-color);
+
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0em;
 }
 .hero-subtitle {
+  color: var(--second-color);
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .button-hero {
+  color: #ffffff;
+  background-color: var(--main-color);
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
 }
 .hero-svg {
 }
 
 /* -----------------SKILLS----------------- */
-.Skills {
+.skills {
 }
 .section {
 }
+.skills-title {
+  color: var(--third-color);
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+.section-title {
+}
 .skills-list {
+}
+.list {
 }
 .skills-list-item {
 }
 .skill-list-title {
+  color: var(--third-color);
+
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .slill-list-subtitle {
+  color: var(--second-color);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .skill-list-button {
-}
+  color: #fff;
+  background-color: var(--main-color);
 
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
 /* -----------------ANOUT US----------------- */
 .about-title {
+  color: var(--third-color);
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .section-title {
 }
 .about-subtitle {
+  color: var(--second-color);
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8;
 }
 .about-list {
 }
@@ -84,23 +201,67 @@
 }
 .about-list-item {
 }
+.about-list-count {
+  color: var(--fourth-color);
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
 .about-list-item-text {
+  color: var(--second-color);
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 
 /* -----------------PRICING----------------- */
 .pricing-title {
+  color: var(--third-color);
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .pricing-list {
 }
 .pricin-list-item {
 }
 .pricin-list-title {
+  color: var(--main-color);
+
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0em;
 }
 .pricing-list-subtitle {
+  color: var(--second-color);
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .pricing-list-price {
+  color: var(--main-color);
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .pricing-list-interval {
+  color: var(--pricing);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 
 /* -----------------CONTACT US----------------- */
@@ -109,8 +270,27 @@
 .section {
 }
 .contact-title {
+  color: var(--third-color);
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .contact-subtitle {
+  color: var(--second-color);
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 .contact-button {
+  color: #fff;
+  background-color: var(--main-color);
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
 }

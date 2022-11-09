@@ -32,6 +32,8 @@
 }
 
 .section-title {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .list {
@@ -42,6 +44,17 @@
 
 .link {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 button {
@@ -201,6 +214,7 @@ button {
 .section {
 }
 .skills-title {
+  display: block;
   color: var(--third-color);
 
   font-size: 48px;
@@ -208,13 +222,18 @@ button {
   line-height: 1.5;
   letter-spacing: 0em;
 }
-.section-title {
-}
+
 .skills-list {
+  display: flex;
 }
-.list {
-}
+
 .skills-list-item {
+  background-color: var(--second-background);
+
+  height: 947px;
+  width: 426px;
+
+  border-radius: 10px;
 }
 .skill-list-title {
   color: var(--third-color);

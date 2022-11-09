@@ -3,7 +3,7 @@
   --second-color: #8f95a5;
   --third-color: #000000;
   --fourth-color: #2a3246;
-  --first-background: #e5e5e5;
+  --first-background: #fff;
   --second-background: #f5f5f5;
   --pricing: #546269;
 }
@@ -24,7 +24,7 @@
   padding-left: 20px;
   padding-right: 20px;
 
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .section {
@@ -127,13 +127,9 @@ button {
 }
 .logo {
 }
-.link {
-}
 .logo-style {
 }
 .footer-list {
-}
-.list {
 }
 .footer-item {
 }
@@ -150,15 +146,13 @@ button {
 /* -----------------HERO----------------- */
 .hero {
 }
-.section {
-}
 
 .container-hero {
   display: flex;
 }
 
 .subcontainer-hero {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   height: 548px;
   width: 540px;
 }
@@ -211,8 +205,7 @@ button {
 /* -----------------SKILLS----------------- */
 .skills {
 }
-.section {
-}
+
 .skills-title {
   display: block;
   color: var(--third-color);
@@ -225,32 +218,100 @@ button {
 
 .skills-list {
   display: flex;
+  gap: 30px;
+}
+
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* outline: 1px solid red; */
+
+  gap: 30px;
+  width: 882px;
+}
+
+.skills-list-card-container {
+  margin-left: 18px;
+}
+
+.skills-list-last-card-container {
+  margin-top: 32px;
 }
 
 .skills-list-item {
   background-color: var(--second-background);
-
-  height: 947px;
-  width: 426px;
-
   border-radius: 10px;
 }
-.skill-list-title {
+
+.skills-list-first-item {
+  height: 947px;
+  width: 426px;
+}
+.skills-list-second-item {
+  height: 579px;
+  width: 426px;
+}
+.skills-list-third-item {
+  height: 579px;
+  width: 426px;
+}
+.skills-list-fourth-item {
+  display: flex;
+
+  height: 338px;
+  width: 882px;
+}
+
+.skills-list-picture:not(:last-child) {
+  margin-bottom: 24px;
+  margin-left: 18px;
+}
+
+.skills-list-picture {
+  margin-left: 114px;
+  margin-right: 18px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.skills-list-title {
   color: var(--third-color);
 
   font-size: 30px;
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0em;
+
+  margin-bottom: 20px;
 }
-.slill-list-subtitle {
+.slills-list-subtitle {
   color: var(--second-color);
 
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0em;
+
+  margin-bottom: 30px;
 }
+
+.skills-list-first-subtitle {
+  height: 192px;
+  width: 347px;
+}
+.skills-list-second-subtitle {
+  height: 72px;
+  width: 340px;
+}
+.skills-list-third-subtitle {
+  height: 72px;
+  width: 359px;
+}
+.skills-list-fourth-subtitle {
+  height: 72px;
+  width: 324px;
+}
+
 .skill-list-button {
   color: #fff;
   background-color: var(--main-color);
@@ -259,6 +320,10 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0em;
+
+  height: 60px;
+  width: 218px;
+  border-radius: 10px;
 }
 /* -----------------ANOUT US----------------- */
 .about-title {

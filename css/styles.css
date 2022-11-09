@@ -6,6 +6,7 @@
   --first-background: #fff;
   --second-background: #f5f5f5;
   --pricing: #546269;
+  --pricing-background-color: #eeeeee;
 }
 
 /* -----------------BODY----------------- */
@@ -123,15 +124,31 @@ button {
 }
 
 /* -----------------FOOTER----------------- */
+
 .footer {
+}
+
+.footer-logo {
+  padding-top: 22px;
+  padding-bottom: 77px;
+}
+.container-footer {
+  display: flex;
+  border-top: 1px solid #c4c4c4;
 }
 .logo {
 }
 .logo-style {
 }
 .footer-list {
+  display: flex;
+  gap: 80px;
+
+  margin-left: auto;
 }
 .footer-item {
+  padding-top: 31px;
+  padding-bottom: 86px;
 }
 .footer-link {
   color: var(--second-color);
@@ -197,7 +214,7 @@ button {
 }
 
 .hero-picture {
-  margin-left: 144px;
+  margin-left: auto;
 }
 .hero-svg {
 }
@@ -326,6 +343,14 @@ button {
   border-radius: 10px;
 }
 /* -----------------ANOUT US----------------- */
+
+.about-container {
+  display: flex;
+}
+
+.about-card {
+}
+
 .about-title {
   color: var(--third-color);
 
@@ -333,20 +358,27 @@ button {
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0em;
+
+  text-align: start;
 }
-.section-title {
-}
+
 .about-subtitle {
   color: var(--second-color);
 
   font-size: 20px;
   font-weight: 400;
   line-height: 1.8;
+
+  height: 216px;
+  width: 652px;
+
+  margin-bottom: 30px;
 }
 .about-list {
+  display: flex;
+  gap: 150px;
 }
-.list {
-}
+
 .about-list-item {
 }
 .about-list-count {
@@ -366,6 +398,10 @@ button {
   letter-spacing: 0em;
 }
 
+.about-picture {
+  margin-left: auto;
+}
+
 /* -----------------PRICING----------------- */
 .pricing-title {
   color: var(--third-color);
@@ -376,9 +412,21 @@ button {
   letter-spacing: 0em;
 }
 .pricing-list {
+  display: flex;
+  gap: 30px;
 }
 .pricin-list-item {
 }
+
+.pricing-picture-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 320px;
+  width: 426px;
+}
+
 .pricin-list-title {
   color: var(--main-color);
 
@@ -386,6 +434,9 @@ button {
   font-weight: 600;
   line-height: 1.6;
   letter-spacing: 0em;
+
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 .pricing-list-subtitle {
   color: var(--second-color);
@@ -394,7 +445,24 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0em;
+
+  height: 90px;
+  width: 426px;
 }
+
+.pricing-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 45px;
+  width: 260px;
+
+  border-radius: 5px;
+
+  background-color: var(--pricing-background-color);
+}
+
 .pricing-list-price {
   color: var(--main-color);
 
@@ -417,13 +485,23 @@ button {
 }
 .section {
 }
+
+.contact-container {
+  display: flex;
+}
+
+.contact-card {
+}
+
 .contact-title {
-  color: var(--third-color);
+  text-align: start;
 
   font-size: 48px;
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0em;
+
+  color: var(--third-color);
 }
 .contact-subtitle {
   color: var(--second-color);
@@ -432,6 +510,9 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0em;
+
+  height: 90px;
+  width: 654px;
 }
 .contact-button {
   color: #fff;
@@ -441,4 +522,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+
+  height: 70px;
+  width: 312px;
 }
